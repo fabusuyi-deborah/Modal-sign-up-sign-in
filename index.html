@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <header>
+    <p id="head"> Welcome to Dherrbies' corner</p>
+    <p>Click the Buttons below to Sign-up or Sign-in </p>
+  </header>
+
+  <section>
+      <div class="container">
+        <form action="">
+           <button id="btn" class="btn"> Sign-up</button>
+           <button id="bttn" class="bttn"> Sign-in</button>
+        </form>
+      </div>
+  </section>
+
+  <div class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>Sign-up</h3>
+      <hr>
+      
+      <form name="myformm" method="post" action="http://www.javatpoint.com/javascriptpages/valid.jsp" onsubmit="return validateformm()">  
+        Name: </br><input type="text" name="name"><br/>  
+
+        Email: </br><input type="text" name="email"><br/>  
+
+        Phone Number: </br> <input type="text" name="num"><span id="numloc" ></span><br/>  
+
+        Password: </br><input type="password" name="password"><br/>  
+
+       <button id="submit">Submit</button>  
+        </form>    
+    </div>
+    </div>
+
+       <div class="popup">
+     <div class="popup-content"> 
+      <span class="closee">&times;</span>
+      <h3>Sign-in</h3>
+      <hr>
+
+      <form name="myform" method="post" action="http://www.javatpoint.com/javascriptpages/valid.jsp" onsubmit="return validateform()">  
+        Name: </br><input type="text" name="name"><br/>  
+
+        Email: </br><input type="text" name="email"><br/>  
+
+        Password: </br><input type="password" name="password"><br/>  
+
+       <button id="submit">Sign-in</button>  
+        </form>  
+    </div>
+    </div>  
+
+    
+   <script src="script.js"></script>
+</body>
+ 
